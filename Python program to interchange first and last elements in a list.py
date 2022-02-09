@@ -5,5 +5,11 @@
 # Output : [3, 2, 1]
 
 newList = [1, 2, 3]
-newList[0],newList[-1]=newList[-1],newList[0]
-print(newList)
+def swapList(newList):
+     
+    newList[0], newList[-1] = newList[-1], newList[0]
+ 
+    return newList
+output=swapList(newList)
+print(output)
+
