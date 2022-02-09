@@ -34,5 +34,5 @@ end_time_len = str(time.time() - start_time_len)
 print ("Time taken using naive method is : " + end_time_naive)
 print ("Time taken using len() is : " + end_time_len)
 
-a="Sum of number digits in List"
+a="Python program to print even numbers in a list"
 print(a.replace(" ","_"))
