@@ -34,5 +34,5 @@ end_time_len = str(time.time() - start_time_len)
 print ("Time taken using naive method is : " + end_time_naive)
 print ("Time taken using len() is : " + end_time_len)
 
-a="Python program to print even numbers in a list"
+a="Program to print duplicates from a list of integers"
 print(a.replace(" ","_"))
