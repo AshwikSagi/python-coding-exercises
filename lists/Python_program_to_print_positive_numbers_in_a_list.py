@@ -11,6 +11,7 @@ positives=list(filter(lambda x:x>0 , l))
 print(positives)
 print(positive_list)
 
+
 l=[12, -7, 5, 64, -14,-28]
 negatives=list(filter(lambda x:x<0 , l))
 negative_list=[ele for ele in range(-10,10,2) if ele<0]
@@ -18,6 +19,8 @@ print(negative_list)
 print(len(negative_list))
 print()
 print(negatives)
+
+
 
 
 
